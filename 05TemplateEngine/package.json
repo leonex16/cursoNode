@@ -1,0 +1,23 @@
+{
+  "name": "05templateengine",
+  "version": "1.0.0",
+  "description": "A ver si me resulta usar el motor de plantilla a React",
+  "main": "server.js",
+  "bin": {
+    "05templateengine": "server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/server.js"
+  },
+  "author": "Leonel Espinoza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "morgan": "^1.10.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
